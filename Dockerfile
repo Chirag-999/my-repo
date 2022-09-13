@@ -1,4 +1,4 @@
-FROM 080609930597.dkr.ecr.us-east-1.amazonaws.com/brahma-src:ytest
+FROM 080609930597.dkr.ecr.ap-south-1.amazonaws.com/brahma:v2
 
 # Working/Code Directory
 WORKDIR /var/www/html
