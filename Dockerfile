@@ -4,7 +4,7 @@ FROM 080609930597.dkr.ecr.ap-south-1.amazonaws.com/brahma:v2
 WORKDIR /var/www/html
 
 #copy nginx file
-COPY ./conf/nginx/host.conf /etc/nginx/sites-enabled/default
+# COPY ./conf/nginx/host.conf /etc/nginx/sites-enabled/default
 
 # Code copy
 COPY . .
